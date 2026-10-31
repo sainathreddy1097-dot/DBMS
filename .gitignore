@@ -1,7 +1,9 @@
 # Build directories
-backend/target/
-frontend/dist/
-frontend/node_modules/
+**/backend/target/
+**/frontend/dist/
+**/frontend/node_modules/
+**/__pycache__/
+*.pyc
 
 # IDE files
 .idea/
